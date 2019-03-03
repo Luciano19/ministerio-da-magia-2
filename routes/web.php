@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('login');
 });
+
+Route::get('//', function () {
+    return view('cadastroFun');
+});
+
+Route::get('///', function () {
+    return view('cadastrodepart');
+});
+
+Route::get('////', function () {
+    return view('cadastroSala');
+});
