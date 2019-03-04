@@ -15,14 +15,14 @@ Route::get('/', function () {
     return view('login');
 });
 
-Route::get('//', function () {
-    return view('cadastroFun');
+Route::get('/cadastrar-funcionario', function () {
+    return view('cadastro_funcionario');
 });
 
-Route::get('///', function () {
-    return view('cadastrodepart');
+Route::get('/cadastrar-departamento', function () {
+    return view('cadastro_departamento');
 });
 
-Route::get('////', function () {
-    return view('cadastroSala');
+Route::get('/cadastrar-sala', function () {
+    return view('cadastro_sala');
 });
